@@ -14,18 +14,18 @@ public class KnightGenerator {
      */
     public static Knight generateKnight() {
         KnightAmmunition knightAmmunitionPike = new KnightAmmunition("Pike",
-                new AmmunitionCharacter[]{
-                        new AmmunitionCharacter("prick", 40, WeaponType.Offensive)
-                }, 35, 70);
+            new AmmunitionCharacter[]{
+                new AmmunitionCharacter("prick", 40, WeaponType.Offensive)
+            }, 35, 70);
         KnightAmmunition knightAmmunitionSword = new KnightAmmunition("Sword",
-                new AmmunitionCharacter[]{
-                        new AmmunitionCharacter("cut", 30, WeaponType.Offensive),
-                        new AmmunitionCharacter("block", 10, WeaponType.Defensive)
-                }, 28, 100);
+            new AmmunitionCharacter[]{
+                new AmmunitionCharacter("cut", 30, WeaponType.Offensive),
+                new AmmunitionCharacter("block", 10, WeaponType.Defensive)
+            }, 28, 100);
         KnightAmmunition knightAmmunitionHelmet = new KnightAmmunition("Helmet",
-                new AmmunitionCharacter[]{
-                        new AmmunitionCharacter("armor", 35, WeaponType.Defensive)
-                }, 50, 40);
+            new AmmunitionCharacter[]{
+                new AmmunitionCharacter("armor", 35, WeaponType.Defensive)
+            }, 50, 40);
         Knight knight = new Knight();
         knight.equip(knightAmmunitionPike);
         knight.equip(knightAmmunitionSword);

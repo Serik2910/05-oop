@@ -6,11 +6,15 @@ public class KnightAmmunition implements Ammunition {
     private int weight;
     private int cost;
 
-    public KnightAmmunition(String name, AmmunitionCharacter[] ammunitionCharacter, int i, int i1) {
+    public KnightAmmunition(String name, AmmunitionCharacter[] ammunitionCharacter, int weight, int cost) {
         this.name = name;
         this.ammunitionCharacter = ammunitionCharacter;
         this.weight = weight;
         this.cost = cost;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override

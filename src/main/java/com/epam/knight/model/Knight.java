@@ -25,7 +25,7 @@ public class Knight {
         }
         else
         {
-            Arrays.copyOf(this.ammunition, this.ammunition.length+1);
+            this.ammunition= Arrays.copyOf(this.ammunition, this.ammunition.length+1);
             this.ammunition[this.ammunition.length-1] = element;
         }
     }

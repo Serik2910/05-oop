@@ -11,6 +11,9 @@ public class AmmunitionCharacter{
         this.weaponType = weaponType;
     }
 
+    public AmmunitionCharacter() {
+    }
+
     public String getTypeAmmunition() {
         return name;
     }
